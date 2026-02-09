@@ -37,11 +37,6 @@ PS1='%F{green}%n@%m%f %F{blue}%1~%f%F{yellow}${vcs_info_msg_0_}%f %# '
 # Environment variables
 export EDITOR="nvim"
 export VISUAL="nvim"
-export NPM_SIS_REGISTRY="https://infinitecampus.jfrog.io/artifactory/api/npm/npm-snapshot-virtual"
-export NPM_SIS_TOKEN="lol u thought"
-export ORG_GRADLE_PROJECT_artifactory_user="daniel.turnquist"
-export ORG_GRADLE_PROJECT_artifactory_password="lol u thought"
-export GRADLE_OPTS="-Dgradle.wrapperUser=$ORG_GRADLE_PROJECT_artifactory_user -Dgradle.wrapperPassword=$ORG_GRADLE_PROJECT_artifactory_password"
 
 # Cargo 
 export PATH="$HOME/.cargo/bin:$PATH"
