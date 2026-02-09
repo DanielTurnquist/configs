@@ -1,6 +1,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+bindkey -v
+
 # History
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
